@@ -137,3 +137,74 @@ hr {
   height: 0.5px;
   border-color: #e5e5e5;
 }
+
+/*=============================================
+=            Main content style            =
+=============================================*/
+.content {
+  border-color: #f9f9f9;
+  width: 100%;
+  height: 100%;
+  padding: 0.9375rem 0.9375rem;
+  border-top: 1px solid #ddd;
+  overflow-y: scroll;
+}
+
+.videos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.video {
+  width: 16.875rem;
+  margin-bottom: 1.875rem;
+}
+
+.thumbnail {
+  width: 100%;
+  height: 10.625rem;
+}
+
+.thumbnail img {
+  object-fit: cover;
+  width: 100%;
+  height: 94%;
+}
+
+.details {
+  display: flex;
+}
+
+.author img {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 0.625rem;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+.title h3 {
+  color: rgb(3, 3, 3);
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  margin-bottom: 0.375rem;
+}
+
+.title a,
+span {
+  text-decoration: none;
+  color: rgb(96, 96, 96);
+  font-size: 0.75rem;
+}
+
+/*=====  End of main content style  ======*/
+
+/*=============================================
+=            Media queries            =
+=============================================*/
