@@ -41,3 +41,64 @@ main {
     display: none;
   }
 }
+
+/* Style header left section */
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.left #menu {
+  padding: 0 0.4375rem;
+  cursor: pointer;
+}
+
+/* Style header center section and form */
+
+.search {
+  display: flex;
+}
+
+.search form {
+  display: flex;
+  border: 1px solid #ddd;
+  height: 2.8125rem;
+}
+
+/* Style the input in the search form */
+.search input {
+  width: 37.5rem;
+  padding: 0.625rem;
+  border: 0;
+  height: 100%;
+  border-radius: 2px 0 0 2px;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #ddd;
+}
+
+/* Style the search and mic icons/buttons */
+.search button {
+  height: 100%;
+  width: 3.75rem;
+  border: none;
+}
+
+.icon {
+  margin: auto;
+  display: block !important;
+}
+
+.mic {
+  /* margin-top: 10px; */
+  margin: auto;
+}
+
+/* Style all material-icons of the web page */
+
+.material-icons {
+  color: rgb(100, 100, 100);
+  padding: 0 7px;
+}
