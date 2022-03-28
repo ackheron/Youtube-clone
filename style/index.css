@@ -10,3 +10,34 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
+/* Style the header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3.75rem;
+  padding: 0.9375rem;
+}
+
+/* Set the height of the main content */
+main {
+  height: calc(100vh - 70px);
+  display: flex;
+  background: #f9f9f9;
+}
+
+/* Hide the scrollbar */
+.side-bar {
+  height: 100%;
+  width: 17%;
+  background: white;
+  overflow-y: hidden;
+}
+
+/* Add media queries for responsiveness side bar */
+@media (max-width: 768px) {
+  .side-bar {
+    display: none;
+  }
+}
