@@ -39,14 +39,6 @@ main {
   overflow-y: hidden;
 }
 
-/* Add media queries for responsiveness side bar */
-@media (max-width: 768px) {
-  .side-bar {
-    /* display: none; */
-    /* width: 10%; */
-  }
-}
-
 /* Style header left section */
 .left {
   display: flex;
