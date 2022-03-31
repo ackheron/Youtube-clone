@@ -42,7 +42,8 @@ main {
 /* Add media queries for responsiveness side bar */
 @media (max-width: 768px) {
   .side-bar {
-    display: none;
+    /* display: none; */
+    /* width: 10%; */
   }
 }
 
@@ -208,3 +209,32 @@ span {
 /*=============================================
 =            Media queries            =
 =============================================*/
+
+@media (max-width: 1024px) {
+  .search input {
+    width: 25rem;
+  }
+  .nav span {
+    display: none;
+  }
+  .side-bar {
+    width: 10%;
+  }
+  .nav i {
+    padding: 0;
+  }
+}
+@media (max-width: 900px) {
+  .search input {
+    width: 20rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .search {
+    display: none;
+  }
+  .side-bar {
+    display: none;
+  }
+}
